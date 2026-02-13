@@ -1,0 +1,122 @@
+.profile {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#name {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+#contact {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.section-title {
+  font-size: 16px;
+  margin-bottom: 2px;
+  margin-top: 18px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #000;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.company {
+  font-weight: bold;
+}
+
+.role {
+  font-style: italic;
+}
+
+.right {
+  text-align: right;
+  white-space: nowrap;
+}
+
+ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+/*
+Conflict: li (element selector) vs .education li (class + element).
+Winner: .education li because it has higher specificity.
+Specificity: li = 0-0-1, .education li = 0-1-1.
+*/
+li {
+  margin-bottom: 4px;
+}
+
+.education li {
+  margin-bottom: 6px;
+}
+
+.education {
+  list-style: square;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.education li {
+  margin-bottom: 6px;
+}
+
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.edu-row .left {
+  flex: 1;
+}
+
+.edu-row .right {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 6px;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #000;
+  padding: 6px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.skills-table th {
+  font-weight: bold;
+}
