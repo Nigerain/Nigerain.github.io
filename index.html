@@ -8,17 +8,28 @@
 </head>
 
 <body>
-    <header>
+    <nav class="navbar">
+        <div class="logo">Dixon Lin</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#gallery">Gallery</a>
+        </div>
+        </nav>
+    <header class="hero" id="about">
+        <img src="assets/kumamoto.jpg" class="profile" alt="Dixon Lin profile photo">
 
-        <img src="assets/kumamoto.jpg" class="profile">
+        <div class="hero-text">
+            <h1 id="name">Dixon Lin</h1>
+            <h2 id="contact">Cell: (646) 207-2515 / Email: Lindixon16@gmail.com</h2>
+        </div>
 
-        <h1 id="name">Dixon Lin</h1>
-
-        <h2 id="contact">Cell: (646) 207-2515/Email: Lindixon16@gmail.com</h2>
         <hr>
     </header>
 
-    <section>
+    <section id="experience">
         <h2 class="section-title">WORK EXPERIENCE</h2>
         <hr>
 
@@ -109,7 +120,7 @@
         </article>
     </section>
 
-    <section>
+    <section id="skills">
         <h2 class="section-title">TECHNICAL SKILLS</h2>
         <hr>
 
@@ -144,7 +155,7 @@
         </ul>
     </section>
 
-    <section>
+    <section id="education">
         <h2 class="section-title">EDUCATION</h2>
         <hr>
         <ul>
@@ -221,6 +232,31 @@
             </li>
 
         </ul>
+    </section>
+
+    <section id="gallery">
+        <h2 class="section-title">GALLERY</h2>
+        <hr>    
+
+        <div class="gallery-grid">
+            <article class="card">
+                <img src="assets/kitadake2.jpg" alt="Trip abroad photo 1" class="card-img">
+                <h3>Kitadake</h3>
+                <p>This was taken when I went on a 13 hours hike up the second tallest mountain in Japan. We almost fell and slipped a few times but it was so worth it</p>
+            </article>
+
+            <article class="card">
+                <img src="assets/monke.png" alt="Trip abroad photo 2" class="card-img">
+                <h3>Nagano</h3>
+                <p>I visited the famous snow monkey onsen in Nagano and I was able to snap this photo of this monkey.</p>
+            </article>
+
+            <article class="card">
+                <img src="assets/Ise.png" alt="Trip abroad photo 3" class="card-img">
+                <h3>Ise Jingu</h3>
+                <p>During my trip to Ise Jingu, one of the 3  most sacred temple in japan, I went on a detour and to find the sacred spring water.</p>
+            </article>
+        </div>
     </section>
 </body>
 </html>
